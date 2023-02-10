@@ -1,4 +1,11 @@
 --[THE SCRIPT STILL NOT DONE]
+local gameid =game.PlaceId
+if(gameid == 2753915549) then
+    print("")
+    else
+    game.Players.LocalPlayer:Kick("Wrong Game")
+end
+
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
 
 local UI = Material.Load({
@@ -27,4 +34,3 @@ local Page5 = UI.New({
 local Page6 = UI.New({
     Title = "Some features"
 })
-
