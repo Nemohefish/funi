@@ -4,9 +4,9 @@ local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinl
 local UI = Material.Load({
      Title = "Cool Script",
      Style = 3,
-     SizeX = 450,
-     SizeY = 300,
-     Theme = "Mocha"
+     SizeX = 480,
+     SizeY = 330,
+     Theme = "Dark"
 })
 local Page = UI.New({
     Title = "Main"
